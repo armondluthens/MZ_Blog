@@ -1,0 +1,269 @@
+/*-----------------------------------------------------------
+        Big
+/*-----------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*-----------------------------------------------------------
+        Top
+/*-----------------------------------------------------------*/
+.top {
+    font-family: 'Lato', sans-serif;
+    height: 100px;
+    width:80%;
+    margin-left:10%;
+    border-bottom: 2px solid brown;
+}
+
+#title{
+    float: left;
+    color: brown;
+    width: 35%;
+    margin-top:20px;
+}
+
+
+#nav ul {
+    float: right;
+    text-align: center;
+    padding-top:25px;
+}
+
+#nav li {
+    font-size: 22px;
+    display: inline;
+    
+}
+
+#nav a {
+    text-decoration: none;
+    color: brown;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border:2px solid white;
+}
+
+#nav a:hover {
+    background-color: #FFF;
+    color: sandybrown;
+}
+
+/*-----------------------------------------------------------
+        All Stories
+/*-----------------------------------------------------------*/
+.contact-me {
+    height: 80px;
+    width:80%;
+    margin-left:10%;
+    border-bottom: 2px solid white;
+}
+
+.contact-me p {
+    color: brown;
+    width: 100%;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 40px;   
+}
+
+
+
+/*-----------------------------------------------------------
+        Middle
+/*-----------------------------------------------------------*/
+.middle {
+    height: 500px;
+    width:80%;
+    margin-left:10%;
+    border-bottom: 2px solid brown;
+}
+
+.background-filter {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+.background-filter:hover{
+    background-color: brown;
+}
+/*-----------------------------------------------------------
+        EMAIL
+/*-----------------------------------------------------------*/
+#upper-left{
+    float: left;
+    color: brown;
+    height: 200px;
+    width: 35%;
+    margin-top:20px;
+    margin-left: 12.5%;
+    /*border:3px solid white;*/
+}
+
+#upper-left-background {
+    width:100%;
+    height: 200px;
+    background: url(desert.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#email {
+    width:100%;
+    font-size: 35px;
+    padding-top:90px;
+    text-align: center;
+    color: white;
+    opacity: 1.0;
+}
+
+
+/*-----------------------------------------------------------
+        TWITTER
+/*-----------------------------------------------------------*/
+#upper-right{
+    float: right;
+    color: brown;
+    height: 200px;
+    width: 35%;
+    margin-top:20px;
+    margin-right: 12.5%;
+    /*border:3px solid white;*/
+}
+#upper-right-background {
+    width:100%;
+    height: 200px;
+    background: url(space.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#upper-right:hover{
+    background-color: brown;
+}
+#twitter {
+    width:100%;
+    font-size: 35px;
+    padding-top:90px;
+    text-align: center;
+    color: white;
+    opacity: 1.0;
+}
+
+
+/*-----------------------------------------------------------
+        LINKEDIN
+/*-----------------------------------------------------------*/
+#lower-left{
+    float: left;
+    color: brown;
+    height: 200px;
+    width: 35%;
+    margin-top:20px;
+    margin-left: 12.5%;
+    /*border:3px solid white;*/
+}
+
+#lower-left-background {
+    width:100%;
+    height: 200px;
+    background: url(hipster.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#lower-left:hover{
+    background-color: brown;
+}
+#linkedin {
+    width:100%;
+    font-size: 35px;
+    padding-top:90px;
+    text-align: center;
+    color: white;
+    opacity: 1.0;
+    text-shadow: 2px 2px brown;
+}
+
+
+#lower-right{
+    float: right;
+    color: brown;
+    height: 200px;
+    width: 35%;
+    margin-top:20px;
+    margin-right: 12.5%;
+    /*border:3px solid white;*/
+}
+#lower-right:hover{
+    background-color: brown;
+}
+#lower-right-background {
+    width:100%;
+    height: 200px;
+    background: url(hipster2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#other_shit { 
+    width:100%;
+    font-size: 35px;
+    padding-top:90px;
+    padding-bottom:70px;
+    text-align: center;
+    color: white;
+    opacity: 1.0;
+    text-shadow: 1px 1px brown;
+}
+
+
+/*-----------------------------------------------------------
+        Bottom
+/*-----------------------------------------------------------*/
+.bottom {
+    font-family: 'Lato', sans-serif;
+    height: 90px;
+    width:80%;
+    margin-left:10%;
+}
+
+#copyright{
+    float: left;
+    color: brown;
+    width: 30%;
+    padding-top:20px;
+    font-size: 18px;
+}
+
+#footer ul {
+    float: right;
+    text-align: center;
+    padding-top:25px;
+}
+
+#footer li {
+    font-size: 18px;
+    display: inline;
+    
+}
+
+#footer a {
+    text-decoration: none;
+    color: brown;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border:2px solid white;
+}
+
+#footer a:hover {
+    background-color: #FFF;
+    color: sandybrown;
+}
+
+

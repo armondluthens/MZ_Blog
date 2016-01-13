@@ -1,0 +1,75 @@
+/*-----------------------------------------------------------
+        Big
+/*-----------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*-----------------------------------------------------------
+        Top
+/*-----------------------------------------------------------*/
+.top {
+    height: 710px;
+    margin:1.5%;
+    background: url(hipster.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-color: lightgrey;
+    opacity: 0.9;
+    border: 8px solid brown;
+}
+
+/*-----------------------------------------------------------
+        Center Engineer
+/*-----------------------------------------------------------*/
+#blog-container {
+    width:50%;
+    margin-left:25%;
+    padding-top:355px;
+    opacity: 1;
+}
+
+#blog-container h1 {
+    text-align: center;
+    color: brown;
+    text-shadow: 2px 2px white;
+    /*-webkit-text-stroke: 1px grey;*/
+    font-size: 50px;
+}
+
+#blog-container a {
+    text-decoration: none;
+}
+
+#blog-buttons { 
+    font-family: 'Lato', sans-serif;
+}
+
+#blog-buttons ul {
+    text-align: center;
+    width: 100%;
+    line-height: 80px;
+}
+
+#blog-buttons li {
+    display: inline;
+}
+
+#blog-buttons a {
+    color: white;  
+    text-decoration: none;
+    font-size: 26px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:15px;
+    padding-right:15px;
+    background-color: brown;
+    border: 3px solid white;
+    
+}
+
+#blog-buttons a:hover {
+    color: brown;
+    background-color: #FFF;
+}
